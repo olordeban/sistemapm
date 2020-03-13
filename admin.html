@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Painel | Polícia Militar</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/8a5d0f7573.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <header>
+            <div class="grupo">
+                <img src="/grupo.png" alt="Policia Militar - Habbo">
+            </div>
+        </header>
+        <main>
+            <div class="form">
+                <div class="cadastro">
+                    <h1 class="titulo2">Painel do Administrador</h1>
+                    <br>
+                    <button type="submit" name="submit" onclick="nova()">Registrar Usuário</button>
+                    <br>
+                    <br>
+                    <button type="submit" name="submit" onclick="nova2()">Deletar Usuário</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        Feito com <span class="core"><i class="fas fa-heart"></i></span> & <span class="cafe"><i
+                class="fas fa-coffee"></i></span> por Reinaldo Leite
+    </footer>
+    <script type="text/javascript">
+        function nova() {
+            location.href = "/admin/register"
+        }
+        function nova2() {
+            location.href = "/admin/delete"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de Militar | Polícia Militar</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/8a5d0f7573.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <header>
+            <div class="grupo">
+                <img src="/grupo.png" alt="Policia Militar - Habbo">
+            </div>
+        </header>
+        <main>
+            <div class="form">
+                <div class="cadastro">
+                    <h1 class="titulo2">Cadastro de Militar</h1>
+                    <form class="cadastro-form" action="/" method="POST">
+                        <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?&user={{name}}&action=std&direction=2&head_direction=3&img_format=png&gesture=sml&headonly=0&size=b"
+                            alt="">
+                        <p class="message"> Você está logado como: {{name}}</p>
+                        <br>
+                        <input type="text" placeholder="Nick do militar" name="militar" required autofocus />
+                        <input type="text" placeholder="Nick do oficial" name="oficial" value="{{name}}" readonly
+                            required />
+                        <select class=select name="patente">
+                            <option value="Soldado">Soldado</option>
+                            <option value="Cabo">Cabo</option>
+                            <option value="Terceiro Sargento">Terceiro Sargento</option>
+                            <option value="Segundo Sargento">Segundo Sargento</option>
+                            <option value="Primeiro Sargento">Primeiro Sargento</option>
+                            <option value="Subtenente">Subtenente</option>
+                            <option value="Cadete">Cadete</option>
+                            <option value="Aspirante-a-Oficial">Aspirante-a-Oficial</option>
+                            <option value="Segundo Tenente">Segundo Tenente</option>
+                            <option value="Primeiro Tenente">Primeiro Tenente</option>
+                            <option value="Capitão">Capitão</option>
+                            <option value="Major">Major</option>
+                            <option value="Tenente-Coronel">Tenente-Coronel</option>
+                            <option value="Coronel">Coronel</option>
+                            <option value="Comandante-Geral">Comandante-Geral</option>
+                            <option value="Chefe da Policia">Chefe da Policia</option>
+                        </select>
+                        <input type="text" placeholder="Data da mudança (dd/mm/aaaa)" name="data" required />
+                        <select class=select name="status">
+                            <option value="Ativo">Ativo</option>
+                            <option value="Demitido">Demitido</option>
+                            <option value="Reformado">Reformado</option>
+                        </select>
+                        <button type="submit" name="submit" id="botao3">Cadastrar</button>
+                    </form>
+                    <br>
+                    <button type="submit" name="submit" onclick="nova()">Meus dados</button>
+                    <br>
+                    <br>
+                    <form action="/logout?_method=DELETE" method="POST">
+                        <button type="submit" id="botao2">Sair</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        Feito com <span class="core"><i class="fas fa-heart"></i></span> & <span class="cafe"><i
+                class="fas fa-coffee"></i></span> por Reinaldo Leite
+    </footer>
+    <script type="text/javascript">
+        function nova() {
+            location.href = "/update"
+        }
+    </script>
+</body>
+
+</html>

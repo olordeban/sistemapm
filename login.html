@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Entrar | Polícia Militar</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/8a5d0f7573.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <header>
+            <div class="grupo">
+                <img src="/grupo.png" alt="Policia Militar - Habbo">
+            </div>
+        </header>
+        <main>
+            <div class="form">
+                <!-- AQUI LOGIN -->
+                <div class="login">
+                    <h1 class="titulo">Login</h1>
+                    <form class="login-form" action="/login" method="POST">
+                        <input type="email" placeholder="Email" name="email" required autofocus />
+                        <input type="password" placeholder="Senha" name="password" required />
+                        <button type="submit" name="submit">Entrar</button>
+                        <p class="message">{{messages.error}}</p>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        Feito com <span class="core"><i class="fas fa-heart"></i></span> & <span class="cafe"><i
+                class="fas fa-coffee"></i></span> por Reinaldo Leite
+    </footer>
+</body>
+
+</html>

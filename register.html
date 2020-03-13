@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registro de Usuários | Polícia Militar</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/8a5d0f7573.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <header>
+            <div class="grupo">
+                <img src="/grupo.png" alt="Policia Militar - Habbo">
+            </div>
+        </header>
+        <main>
+            <div class="form">
+                <div class="login">
+                    <h1 class="titulo2">Registo de Usuários</h1>
+                    <form class="login-form" action="/admin/register" method="POST">
+                        <input type="text" placeholder="Nome de usuário" name="name" required autofocus />
+                        <input type="email" placeholder="Email" name="email" required />
+                        <input type="password" placeholder="Senha" name="password" required />
+                        <input type="password" placeholder="Senha de administrador" name="adminpass" required />
+                        <button type="submit" name="submit" id="botao3">Registrar</button>
+                    </form>
+                    <br>
+                    <button type="submit" name="submit" onclick="nova()">Voltar</button>
+                    <p class="message">{{message}}</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        Feito com <span class="core"><i class="fas fa-heart"></i></span> & <span class="cafe"><i
+                class="fas fa-coffee"></i></span> por Reinaldo Leite
+    </footer>
+    <script type="text/javascript">
+        function nova() {
+            location.href = " /admin"
+        }
+    </script>
+</body>
+
+</html>

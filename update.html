@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atualizar dados | Polícia Militar</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/8a5d0f7573.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <header>
+            <div class="grupo">
+                <img src="/grupo.png" alt="Policia Militar - Habbo">
+            </div>
+        </header>
+        <main>
+            <div class="form">
+                <div class="login">
+                    <h1 class="titulo2">Atualizar meus dados</h1>
+                    <form class="login-form" action="/update" method="POST">
+                        <img src="https://www.habbo.com.br/habbo-imaging/avatarimage?&user={{name}}&action=std&direction=2&head_direction=3&img_format=png&gesture=sml&headonly=0&size=b"
+                            alt="">
+                        <p class="message"> Você está logado como: {{name}}</p>
+                        <br>
+                        <input type="text" placeholder="Nome de usuário" name="name" value="{{name}}" readonly required autofocus />
+                        <input type="email" placeholder="Novo email" name="email" value="{{email}}" required />
+                        <input type="password" placeholder="Nova ou antiga senha" name="password" required />
+                        <button type="submit" name="submit" id="botao3">Atualizar</button>
+                    </form>
+                    <br>
+                    <button type="submit" name="submit" onclick="nova()">Voltar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        Feito com <span class="core"><i class="fas fa-heart"></i></span> & <span class="cafe"><i
+                class="fas fa-coffee"></i></span> por Reinaldo Leite
+    </footer>
+    <script type="text/javascript">
+        function nova() {
+            location.href = "/"
+        }
+    </script>
+</body>
+
+</html>
