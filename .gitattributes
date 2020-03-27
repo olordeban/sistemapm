@@ -1,2 +1,9 @@
 public/* linguist-vendored
-*.html linguist-vendoredindex
+index.html linguist-vendored
+admin.html linguist-vendored
+busca1.html linguist-vendored
+busca2.html linguist-vendored
+login.html linguist-vendored
+register.html linguist-vendored
+update.html linguist-vendored
+delete.html linguist-vendored
