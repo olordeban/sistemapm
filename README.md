@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Doe" title="#delicinha" src="public/logo.png" width="250px" />
+    <img alt="SistemaPM" title="#delicinha" src="public/grupo.png" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -40,7 +40,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
-- [Passport.js] (http://www.passportjs.org/)
+- [Passport.js](http://www.passportjs.org/)
 
 ## 💻 Projeto
 
