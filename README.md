@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="SistemaPM" title="#delicinha" src="public/grupo.png" width="250px" />
+    <img alt="SistemaPM" title="#delicinha" src="public/grupo.png" width="100px" />
 </h1>
 
 <h4 align="center">
