@@ -1,27 +1,70 @@
-# SistemaPM
-> Sistema de cadastro e busca de usuários em uma RPG do habbo hotel.
+<h1 align="center">
+    <img alt="Doe" title="#delicinha" src="public/logo.png" width="250px" />
+</h1>
 
+<h4 align="center">
+  🚀 Sistema PM
+</h4>
 <p align="center">
-<a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
-<img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
-</a>
-<a aria-label="Completo" href="http://www.passportjs.org/">
-<img src="https://img.shields.io/badge/Passaport.js-0.4.1-green"></img>
-</a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/olordeban/sistemapm">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/olordeban/sistemapm">
+  
+  <a href="https://github.com/olordeban/sistemapm/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/olordeban/sistemapm">
+  </a>
+
+  <a href="https://github.com/olordeban/sistemapm/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/olordeban/sistemapm">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-Aqui uma imagem da tela de login do projeto.
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-![](https://i.imgur.com/rNQipna.jpg)
+<br>
 
-## Installation with docker
+<p align="center">
+  <img alt="Frontend" src="New Project.png" width="100%">
+</p>
 
-Coming soon.
+## :rocket: Tecnologias
 
-## Meta
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Reinaldo Leite – [@olordeban](https://instagram.com/dbader_org) – olordeban@gmail.com
+- [Node.js](https://nodejs.org/en/)
+- [Passport.js] (http://www.passportjs.org/)
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+## 💻 Projeto
 
-[https://github.com/olordeban/SistemaPM](https://github.com/dbader/)
+O SistemaPM é um sistema de cadastro e busca de usuários de uma RPG.
+
+## 🔖 Layout
+
+Você pode baixar o layout do projeto no formato `.sketch` através [desse link](.github/spm.sketch).
+
+Para abrir o arquivo no formato `.sketch` em qualquer sistema operacional utilize a ferramenta [Figma](https://figma.com).
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Reinaldo Leite & Rocketseat
